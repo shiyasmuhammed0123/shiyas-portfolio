@@ -1,10 +1,11 @@
 export const profile = {
   name: "Muhammed Shiyas V P",
   title:
-    "Digital Marketing Executive · SEO & GEO Specialist · Social Media Strategist",
+    "Digital Marketing Executive | SEO & Social Media Marketing Specialist",
   location: "Kerala, India",
-  email: "hello@shiyas.dev",
-  whatsapp: "https://wa.me/910000000000",
+  email: "shiyasmuhammed0123@gmail.com",
+  phone: "Your Phone Number",
+  whatsapp: "https://wa.me/message/QZAL2SWRDYCOE1",
   linkedin: "https://linkedin.com/in/shiyasvp",
   instagram: "https://instagram.com/shiyasvp",
   resumeUrl: "/resume.pdf",
@@ -15,116 +16,139 @@ export const navLinks = [
   { label: "Home", href: "#home" },
   { label: "About", href: "#about" },
   { label: "Services", href: "#services" },
-  { label: "Projects", href: "#projects" },
-  { label: "Experience", href: "#experience" },
+  { label: "Portfolio", href: "#projects" },
   { label: "Skills", href: "#skills" },
-  { label: "Insights", href: "#insights" },
+  { label: "Experience", href: "#experience" },
   { label: "Contact", href: "#contact" },
 ];
 
 export const heroStats = [
   { label: "Years of experience", value: "1+" },
   { label: "Projects delivered", value: "20+" },
-  { label: "Core focus", value: "SEO · GEO · AI" },
+  { label: "Core focus", value: "SEO · Social · Ads" },
 ];
 
 export const trustLogos = [
   "Google",
   "Meta",
   "LinkedIn",
-  "Vercel",
-  "OpenAI",
   "Google Analytics",
   "Search Console",
   "Meta Ads Manager",
+  "WordPress",
+  "Canva",
 ];
 
 export const services = [
   {
-    title: "SEO",
+    title: "Search Engine Optimization (SEO)",
     description:
-      "Technical audits, on-page structure, and content architecture built to rank and hold rank on Google.",
-  },
-  {
-    title: "Generative Engine Optimization",
-    description:
-      "Positioning brands to be cited and recommended inside AI answers — ChatGPT, Gemini, and Perplexity search.",
+      "Improve search rankings and drive organic traffic with on-page, off-page, and technical SEO.",
   },
   {
     title: "Social Media Marketing",
     description:
-      "Platform-native content systems and community strategy that convert followers into customers.",
+      "Build your brand with engaging content and platform-specific strategies.",
   },
   {
-    title: "Performance Marketing",
+    title: "Meta Ads",
     description:
-      "Meta and Google Ads campaigns engineered around cost-per-lead, not vanity impressions.",
+      "Create and optimize Facebook and Instagram campaigns focused on leads and conversions.",
   },
   {
-    title: "Personal Branding",
+    title: "Content Strategy",
     description:
-      "Positioning founders and experts as the trusted name in their category, on LinkedIn and beyond.",
+      "Develop content that attracts, educates, and converts your target audience.",
   },
   {
-    title: "Content Marketing",
+    title: "Website SEO Audit",
     description:
-      "Editorial calendars and long-form content that compound into organic traffic month over month.",
+      "Identify technical issues and opportunities to improve website performance.",
   },
   {
-    title: "AI Marketing",
+    title: "Analytics & Reporting",
     description:
-      "Workflow automation and AI-assisted research that ship campaigns faster without losing quality.",
-  },
-  {
-    title: "Website Strategy",
-    description:
-      "Conversion-first site structure that turns traffic into pipeline, not just page views.",
-  },
-  {
-    title: "Marketing Consultation",
-    description:
-      "A clear, prioritized growth roadmap for teams who need direction before they need execution.",
+      "Track campaign performance using Google Analytics and actionable reports.",
   },
 ];
 
 export const projects = [
   {
-    title: "Coastal Retail Group",
-    category: "SEO · Local Search",
-    problem: "Ranked page 3 for every core commercial keyword in-region.",
+    title: "SEO & Organic Growth Campaign",
+    category: "SEO · Organic Traffic",
+    problem: "Low search visibility and minimal organic traffic for the client website.",
     solution:
-      "Rebuilt site architecture, fixed technical debt, and shipped a local content cluster.",
-    result: "Reached page 1 for 34 target keywords in 5 months.",
+      "Conducted a full SEO audit, implemented on-page optimizations, built quality backlinks, and developed a content cluster strategy.",
+    result: "Significant improvement in keyword rankings and organic traffic within 3 months.",
     metrics: [
-      { label: "Organic traffic", value: "+186%" },
-      { label: "Leads / month", value: "+92%" },
-      { label: "Avg. position", value: "3.4" },
+      { label: "Organic traffic", value: "+120%" },
+      { label: "Keyword rankings", value: "Top 10" },
+      { label: "Bounce rate", value: "-30%" },
     ],
   },
   {
-    title: "Legends Media Mastery",
-    category: "Social · Performance",
-    problem: "Low-engagement social presence with no lead pipeline.",
+    title: "Social Media Campaign",
+    category: "Social Media · Engagement",
+    problem: "Low engagement and brand awareness on social media platforms.",
     solution:
-      "Rebuilt content pillars and ran always-on Meta Ads with CRO-tested landing pages.",
-    result: "Consistent monthly lead flow within 60 days.",
+      "Developed a content calendar, created platform-specific creative content, and managed community interactions.",
+    result: "Consistent growth in followers and engagement within 60 days.",
+    metrics: [
+      { label: "Follower growth", value: "+200%" },
+      { label: "Engagement rate", value: "+85%" },
+      { label: "Reach", value: "+3x" },
+    ],
+  },
+  {
+    title: "Meta Ads Lead Generation",
+    category: "Meta Ads · Performance",
+    problem: "No structured paid advertising system to generate leads consistently.",
+    solution:
+      "Created targeted Facebook & Instagram ad campaigns with A/B tested creatives and CRO-optimized landing pages.",
+    result: "Consistent monthly lead flow with reduced cost per lead.",
     metrics: [
       { label: "CTR", value: "3.8%" },
-      { label: "Cost / lead", value: "-41%" },
-      { label: "Follower growth", value: "+210%" },
+      { label: "Cost / lead", value: "-40%" },
+      { label: "Leads / month", value: "+90%" },
     ],
   },
   {
-    title: "Founder Personal Brand",
-    category: "GEO · Personal Branding",
-    problem: "Invisible in AI search results despite strong credentials.",
+    title: "Photography Academy Marketing",
+    category: "Branding · Content Marketing",
+    problem: "A photography academy struggling to reach prospective students online.",
     solution:
-      "Structured content and citations to surface the founder inside AI-generated answers.",
-    result: "Now cited by ChatGPT and Perplexity for category queries.",
+      "Built a complete digital marketing strategy including content marketing, social media management, and targeted ads.",
+    result: "Increased brand visibility and student inquiries significantly.",
     metrics: [
-      { label: "AI citations", value: "12+" },
-      { label: "Branded search", value: "+64%" },
-      { label: "Inbound DMs", value: "+3x" },
+      { label: "Inquiries", value: "+150%" },
+      { label: "Social reach", value: "+4x" },
+      { label: "Brand awareness", value: "↑ High" },
+    ],
+  },
+  {
+    title: "Website Optimization",
+    category: "SEO · Technical · UX",
+    problem: "Poor website performance affecting user experience and search rankings.",
+    solution:
+      "Performed technical SEO fixes, improved page speed, optimized meta tags, and enhanced site structure.",
+    result: "Improved Core Web Vitals scores and better search rankings.",
+    metrics: [
+      { label: "Page speed", value: "+60%" },
+      { label: "Core Web Vitals", value: "Passed" },
+      { label: "Rankings", value: "↑ Improved" },
+    ],
+  },
+  {
+    title: "Content Marketing Strategy",
+    category: "Content · Brand Growth",
+    problem: "Inconsistent brand messaging and lack of engaging content across channels.",
+    solution:
+      "Created a structured content strategy with blog posts, social content, and educational material aligned with audience needs.",
+    result: "Stronger brand authority and increased audience engagement.",
+    metrics: [
+      { label: "Content pieces", value: "50+" },
+      { label: "Audience growth", value: "+110%" },
+      { label: "Brand authority", value: "↑ Strong" },
     ],
   },
 ];
@@ -132,70 +156,88 @@ export const projects = [
 export const experience = [
   {
     role: "Digital Marketing Executive",
-    company: "Legends Media Mastery",
+    company: "Legends Media Mastery, Kozhikode",
     period: "Current",
     points: [
-      "Own SEO, GEO, and paid social strategy across client accounts.",
-      "Built internal reporting dashboards tied to revenue, not just traffic.",
-      "Lead a small content and design pod for campaign execution.",
+      "Managed social media campaigns across multiple platforms.",
+      "Improved SEO performance for client websites.",
+      "Created comprehensive marketing strategies.",
+      "Designed promotional creatives for campaigns.",
+      "Supported lead generation campaigns.",
+      "Analyzed campaign performance and reported results.",
     ],
   },
+];
+
+export const education = [
   {
-    role: "Digital Marketing Associate",
-    company: "Freelance & Agency Projects",
-    period: "Previous",
-    points: [
-      "Managed marketing operations for early-stage brands.",
-      "Directed client communication and campaign reporting.",
-      "Delivered content strategy across 15+ industries.",
-    ],
+    degree: "Bachelor of Business Administration (BBA)",
+    institution: "IGNOU",
+    status: "Pursuing",
+  },
+  {
+    degree: "Diploma in Digital Marketing & Branding",
+    institution: "",
+    status: "Completed",
   },
 ];
 
 export const skills = [
-  { label: "SEO", level: 92 },
-  { label: "GEO (AI Search)", level: 88 },
-  { label: "Content Marketing", level: 90 },
+  { label: "Search Engine Optimization (SEO)", level: 90 },
+  { label: "Social Media Marketing (SMM)", level: 88 },
   { label: "Meta Ads", level: 85 },
   { label: "Google Analytics", level: 87 },
-  { label: "Search Console", level: 89 },
+  { label: "Keyword Research", level: 89 },
+  { label: "Content Marketing", level: 88 },
+  { label: "WordPress", level: 80 },
   { label: "Adobe Photoshop", level: 78 },
   { label: "Adobe Illustrator", level: 72 },
-  { label: "Next.js", level: 75 },
-  { label: "Marketing Automation", level: 80 },
+  { label: "AI Tools", level: 85 },
+  { label: "Canva", level: 90 },
+  { label: "Basic HTML & CSS", level: 70 },
 ];
 
 export const certifications = [
-  { name: "Google SEO Fundamentals", issuer: "Google" },
-  { name: "Google Analytics Certification", issuer: "Google" },
-  { name: "Meta Certified Digital Marketing Associate", issuer: "Meta" },
-  { name: "Digital Marketing Specialization", issuer: "Industry Body" },
+  { name: "Digital Marketing", issuer: "Certified" },
+  { name: "Search Engine Optimization", issuer: "Certified" },
+  { name: "Social Media Marketing", issuer: "Certified" },
+  { name: "Google Analytics", issuer: "Google" },
+  { name: "Meta Advertising", issuer: "Meta" },
 ];
 
 export const testimonials = [
   {
     quote:
       "Shiyas rebuilt our organic strategy from scratch and we saw ranking movement within weeks, not quarters.",
-    name: "Anjali Menon",
-    role: "Founder, Coastal Retail Group",
+    name: "Client",
+    role: "Business Owner, Kerala",
   },
   {
     quote:
       "The clearest, most data-driven marketer we've worked with. Every recommendation tied back to a number.",
-    name: "Rahul Nair",
-    role: "Operations Lead, Legends Media Mastery",
+    name: "Client",
+    role: "Operations Lead",
   },
   {
     quote:
-      "He made us visible in AI search before most of our competitors even understood what GEO meant.",
-    name: "Fathima Rasheed",
+      "His content strategy and social media management helped us grow our brand presence significantly.",
+    name: "Client",
     role: "Founder & Creator",
   },
 ];
 
+export const whyWorkWithMe = [
+  "Data-driven marketing",
+  "Creative content strategies",
+  "SEO-focused approach",
+  "Transparent reporting",
+  "Results-oriented campaigns",
+  "Continuous learning",
+];
+
 export const process = [
   { step: "Discover", detail: "Understand the business, audience, and goals before touching a single channel." },
-  { step: "Research", detail: "Audit competitors, keywords, and AI search visibility to find the real opportunity." },
+  { step: "Research", detail: "Audit competitors, keywords, and search visibility to find the real opportunity." },
   { step: "Strategy", detail: "Build a prioritized roadmap tied to measurable business outcomes." },
   { step: "Execution", detail: "Ship content, campaigns, and technical fixes on a disciplined schedule." },
   { step: "Optimization", detail: "Read the data weekly and refine what's working, cut what isn't." },
@@ -204,16 +246,16 @@ export const process = [
 
 export const insights = [
   {
-    title: "Why GEO Is the Next SEO",
-    category: "AI Search",
-    excerpt:
-      "AI answers are becoming the new search results page. Here's how brands earn a place inside them.",
-  },
-  {
     title: "The Local SEO Checklist for 2026",
     category: "SEO",
     excerpt:
       "A practical, no-fluff checklist for ranking in local search this year.",
+  },
+  {
+    title: "How to Run Meta Ads That Actually Convert",
+    category: "Meta Ads",
+    excerpt:
+      "Stop burning ad spend. Here's the framework for Meta campaigns that generate real leads.",
   },
   {
     title: "Building a Personal Brand That Converts",
@@ -221,4 +263,16 @@ export const insights = [
     excerpt:
       "Personal branding isn't about being loud — it's about being trusted. Here's the framework.",
   },
+];
+
+export const seoKeywords = [
+  "Digital Marketing Executive in Kerala",
+  "SEO Specialist in Kerala",
+  "Social Media Marketing Expert",
+  "Digital Marketing Portfolio",
+  "Freelance Digital Marketer",
+  "Meta Ads Specialist",
+  "SEO Expert",
+  "WordPress SEO",
+  "Google Analytics Expert",
 ];

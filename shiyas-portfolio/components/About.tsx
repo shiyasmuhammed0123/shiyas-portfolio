@@ -26,22 +26,34 @@ export default function About() {
         <div>
           <SectionHeading
             eyebrow="About"
-            title="A marketer who treats every campaign like a business problem."
-            description="I started in digital marketing chasing likes and impressions — I stayed because I learned to chase revenue instead. Today I help founders and brands show up where their customers are actually searching: Google, AI answers, and social feeds."
+            title="Hi, I'm Muhammed Shiyas V P"
+            description="A digital marketing professional from Kerala with over a year of hands-on experience helping businesses strengthen their online presence."
           />
 
           <Reveal delay={0.15}>
             <p className="mt-6 text-text-secondary leading-relaxed max-w-2xl">
-              My work sits at the intersection of SEO, Generative Engine
-              Optimization, and performance marketing — built for a world
-              where search is no longer just a results page, but an AI
-              conversation. The mission is simple: make brands impossible to
-              ignore, wherever people are looking.
+              My expertise includes SEO, Social Media Marketing, Meta Ads,
+              content strategy, and brand growth. I enjoy combining creativity
+              with data to create marketing campaigns that deliver measurable
+              results.
+            </p>
+          </Reveal>
+
+          <Reveal delay={0.2}>
+            <p className="mt-4 text-text-secondary leading-relaxed max-w-2xl">
+              I have worked with educational institutions and businesses across
+              different industries, managing content, social media, and digital
+              campaigns while continuously learning the latest marketing trends
+              and AI-powered tools.
             </p>
           </Reveal>
 
           <div className="mt-12 grid sm:grid-cols-3 gap-6">
-            {values.map((v, i) => (
+            {[
+              { title: "Data-driven marketing", detail: "Every decision is tied to a metric that maps to real business results." },
+              { title: "Creative content strategies", detail: "Combining creativity with data to create campaigns that stand out." },
+              { title: "Results-oriented campaigns", detail: "Transparent reporting and continuous learning drive everything I do." },
+            ].map((v, i) => (
               <Reveal key={v.title} delay={0.05 * i}>
                 <div className="glass glass-hover rounded-2xl p-5 h-full">
                   <p className="font-display font-semibold">{v.title}</p>

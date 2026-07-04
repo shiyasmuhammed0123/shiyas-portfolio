@@ -52,10 +52,18 @@ export default function Hero() {
             transition={{ duration: 0.7, delay: 0.1 }}
             className="text-4xl sm:text-5xl md:text-6xl xl:text-7xl font-semibold tracking-tight leading-[1.05]"
           >
-            Helping Brands Rank Higher,{" "}
-            <span className="text-gradient">Grow Faster</span> &amp; Win More
-            Customers.
+            Muhammed{" "}
+            <span className="text-gradient">Shiyas V P</span>
           </motion.h1>
+
+          <motion.p
+            initial={{ opacity: 0, y: 16 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7, delay: 0.15 }}
+            className="mt-2 text-lg md:text-xl text-text-secondary font-medium"
+          >
+            Digital Marketing Executive | SEO &amp; Social Media Marketing Specialist
+          </motion.p>
 
           <motion.p
             initial={{ opacity: 0, y: 24 }}
@@ -63,8 +71,9 @@ export default function Hero() {
             transition={{ duration: 0.7, delay: 0.2 }}
             className="mt-6 max-w-xl text-text-secondary text-base md:text-lg leading-relaxed"
           >
-            I create SEO, GEO, AI-powered marketing, and social media
-            strategies that turn attention into measurable business growth.
+            I help businesses grow through data-driven SEO, high-performing
+            social media strategies, and creative digital marketing campaigns
+            that increase visibility, engagement, and leads.
           </motion.p>
 
           <motion.div
@@ -73,9 +82,9 @@ export default function Hero() {
             transition={{ duration: 0.7, delay: 0.3 }}
             className="mt-10 flex flex-wrap items-center gap-4"
           >
-            <MagneticButton href="#contact">Let&apos;s Work Together</MagneticButton>
-            <MagneticButton href="#projects" variant="secondary">
-              View My Work
+            <MagneticButton href="#projects">View Portfolio</MagneticButton>
+            <MagneticButton href="#contact" variant="secondary">
+              Contact Me
             </MagneticButton>
           </motion.div>
 
