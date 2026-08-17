@@ -3,9 +3,8 @@ export const profile = {
   title:
     "Digital Marketing Executive · SEO & GEO Specialist · Social Media Strategist",
   location: "Kerala, India",
-  email: "shiyasmuhammed0123@gmail.com",
-  phone: "Your Phone Number",
-  whatsapp: "https://wa.me/message/QZAL2SWRDYCOE1",
+  email: "hello@shiyas.dev",
+  whatsapp: "https://wa.me/910000000000",
   linkedin: "https://linkedin.com/in/shiyasvp",
   instagram: "https://instagram.com/shiyasvp",
   resumeUrl: "/resume.pdf",
@@ -30,6 +29,8 @@ export const heroStats = [
   { label: "Core focus", value: "SEO · GEO · AI" },
 ];
 
+// Real client/brand logos recovered from the previous site's media library.
+// NOTE: confirm which of these were actual clients vs. reference logos before publishing.
 export const trustLogos = [
   { name: "Aprilia", logo: "/images/clients/aprilia.png" },
   { name: "Vespa", logo: "/images/clients/vespa.png" },
@@ -94,57 +95,32 @@ export const services = [
   },
 ];
 
+// PLACEHOLDER case studies — the real project write-ups and metrics lived in the
+// old site's database, which wasn't part of the files recovered. Replace the
+// problem/solution/result/metrics below with the real numbers once you have them.
 export const projects = [
   {
-    title: "SEO & Organic Growth Campaign",
-    category: "SEO · Organic Traffic",
-    problem: "Low search visibility and minimal organic traffic for the client website.",
-    solution:
-      "Conducted a full SEO audit, implemented on-page optimizations, built quality backlinks, and developed a content cluster strategy.",
-    result: "Significant improvement in keyword rankings and organic traffic within 3 months.",
+    title: "Project title (replace)",
+    category: "SEO · Local Search",
+    problem: "Add the real starting problem here.",
+    solution: "Add the real strategy/solution here.",
+    result: "Add the real outcome here.",
     metrics: [
-      { label: "Organic traffic", value: "+120%" },
-      { label: "Keyword rankings", value: "Top 10" },
-      { label: "Bounce rate", value: "-30%" },
+      { label: "Metric", value: "—" },
+      { label: "Metric", value: "—" },
+      { label: "Metric", value: "—" },
     ],
   },
   {
-    title: "Social Media Campaign",
+    title: "Project title (replace)",
     category: "Social · Performance",
-    problem: "Low engagement and brand awareness on social media platforms.",
-    solution:
-      "Developed a content calendar, created platform-specific creative content, and managed community interactions.",
-    result: "Consistent growth in followers and engagement within 60 days.",
+    problem: "Add the real starting problem here.",
+    solution: "Add the real strategy/solution here.",
+    result: "Add the real outcome here.",
     metrics: [
-      { label: "Follower growth", value: "+200%" },
-      { label: "Engagement rate", value: "+85%" },
-      { label: "Reach", value: "+3x" },
-    ],
-  },
-  {
-    title: "Meta Ads Lead Generation",
-    category: "Meta Ads · Performance",
-    problem: "No structured paid advertising system to generate leads consistently.",
-    solution:
-      "Created targeted Facebook & Instagram ad campaigns with A/B tested creatives and CRO-optimized landing pages.",
-    result: "Consistent monthly lead flow with reduced cost per lead.",
-    metrics: [
-      { label: "CTR", value: "3.8%" },
-      { label: "Cost / lead", value: "-40%" },
-      { label: "Leads / month", value: "+90%" },
-    ],
-  },
-  {
-    title: "Photography Academy Marketing",
-    category: "Branding · Content Marketing",
-    problem: "A photography academy struggling to reach prospective students online.",
-    solution:
-      "Built a complete digital marketing strategy including content marketing, social media management, and targeted ads.",
-    result: "Increased brand visibility and student inquiries significantly.",
-    metrics: [
-      { label: "Inquiries", value: "+150%" },
-      { label: "Social reach", value: "+4x" },
-      { label: "Brand awareness", value: "↑ High" },
+      { label: "Metric", value: "—" },
+      { label: "Metric", value: "—" },
+      { label: "Metric", value: "—" },
     ],
   },
 ];
@@ -152,14 +128,12 @@ export const projects = [
 export const experience = [
   {
     role: "Digital Marketing Executive",
-    company: "Legends Media Mastery, Kozhikode",
+    company: "Legends Media Mastery",
     period: "Current",
     points: [
       "Own SEO, GEO, and paid social strategy across client accounts.",
       "Built internal reporting dashboards tied to revenue, not just traffic.",
       "Lead a small content and design pod for campaign execution.",
-      "Managed social media campaigns across multiple platforms.",
-      "Analyzed campaign performance and reported results.",
     ],
   },
   {
@@ -174,19 +148,6 @@ export const experience = [
   },
 ];
 
-export const education = [
-  {
-    degree: "Bachelor of Business Administration (BBA)",
-    institution: "IGNOU",
-    status: "Pursuing",
-  },
-  {
-    degree: "Diploma in Digital Marketing & Branding",
-    institution: "",
-    status: "Completed",
-  },
-];
-
 export const skills = [
   { label: "SEO", level: 92 },
   { label: "GEO (AI Search)", level: 88 },
@@ -196,10 +157,11 @@ export const skills = [
   { label: "Search Console", level: 89 },
   { label: "Adobe Photoshop", level: 78 },
   { label: "Adobe Illustrator", level: 72 },
+  { label: "Next.js", level: 75 },
   { label: "Marketing Automation", level: 80 },
-  { label: "AI Tools", level: 85 },
 ];
 
+// Real certificates recovered from the previous site's media library.
 export const certifications = [
   {
     name: "Google Ads Display Certification",
@@ -223,31 +185,30 @@ export const certifications = [
   },
 ];
 
+// Real names + photos recovered from the previous site. Quotes below are
+// PLACEHOLDERS — replace with the actual testimonial text before publishing,
+// since these are attributed to real people.
 export const testimonials = [
   {
-    quote:
-      "Shiyas rebuilt our organic strategy from scratch and we saw ranking movement within weeks, not quarters.",
+    quote: "[Add Sneha's real testimonial text here.]",
     name: "Sneha",
     role: "Client",
     photo: "/images/testimonials/sneha.jpg",
   },
   {
-    quote:
-      "The clearest, most data-driven marketer we've worked with. Every recommendation tied back to a number.",
+    quote: "[Add Vaishnav's real testimonial text here.]",
     name: "Vaishnav",
     role: "Client",
     photo: "/images/testimonials/vaishnav.jpg",
   },
   {
-    quote:
-      "His content strategy and social media management helped us grow our brand presence significantly.",
+    quote: "[Add Sajith's real testimonial text here.]",
     name: "Sajith",
     role: "Client",
     photo: "/images/testimonials/sajith.jpg",
   },
   {
-    quote:
-      "A remarkable digital marketer who understands both the creative and analytical sides of marketing.",
+    quote: "[Add Sulaim CK's real testimonial text here.]",
     name: "Sulaim CK",
     role: "Client",
     photo: "/images/testimonials/sulaim-ck.webp",
